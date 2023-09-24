@@ -8,13 +8,13 @@
     text-align: left !important;
     font-size: 1.5vw !important;
     padding-left: 2% !important;
-    display:inline-flex !important;
+    display: inline-flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     margin-top: 2% !important;
     border: none !important;
     border-radius: 15px !important;
-    transition: 1s !important;
+    transition: transform 1s !important;
     height: auto !important;
 
     &:hover {
@@ -33,7 +33,7 @@
 .cac__button__menuicon {
     margin-right: 2% !important;
     transform: rotate(-90deg) !important;
-    transition: 0.5s !important;
+    transition: transform 0.5s !important;
     border-radius: 50% !important;
     width: auto;
     height: auto;
@@ -53,19 +53,17 @@
     border-radius: 15px !important;
     overflow: hidden !important;
     margin-left: 5% !important;
-    margin-top:0% !important;
+    margin-top: 0% !important;
     padding: 2.5% !important;
     transform-origin: top !important;
-    display:none !important;
+    display: none !important;
     flex-direction: column !important;
 }
 
 .cac__button__menu-container--enabled {
     margin-top: 2% !important; 
-    display:flex !important;
+    display: flex !important;
 }
-
-// tf is this
 
 .cac__button__menu-container__option-container {
     display: flex !important;
@@ -92,9 +90,9 @@
 .cac__button__menu-container__option-container__text {
     border-radius: 5px !important;
     height: auto !important;
+
     &:focus {
         outline: none !important;
         border: solid 2px @theme !important;
     }
 }
-
