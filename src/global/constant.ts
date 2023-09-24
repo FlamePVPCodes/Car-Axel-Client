@@ -1,2 +1,2 @@
-export const DEBUG = true;
-export const LITE = false
+export const DEBUG: boolean = true;
+export const LITE: boolean = false;
