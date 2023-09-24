@@ -1,187 +1,161 @@
-[
-    {
-        "section": "exploit",
-        "display": "NoForceReload",
-        "function": "NoForceReload",
-        "always": false,
-        "reset": false
-    },
-
-    {
-        "section": "exploit",
-        "display": "<i style='font-family:\"Comic Sans MS\"'>ad remover -</i>",
-        "function": "adremover"
-    },
-
-    {
-        "section": "exploit",
-        "display": "Better Force Select",
-        "function": "betterforceselect",
-        "always": true
-    },
-
-    {
-      "section": "game",
-      "display": "rom loader",
-      "reset": true,
-      "function": "rom"
-    },
-     {
-        "section": "game",
-        "display": "yohoho",
-        "reset": true,
-        "function": "yohoho"
-    },
-
-    {
-        "section": "game",
-        "display": "Burrito Bison",
-        "reset": true,
-        "function": "bb"
-    },
-     {
-        "section": "game",
-        "display": "Duck Life 4",
-        "reset": true,
-        "function": "ducklife4"
-    },
-    {
-        "section": "game",
-        "display": "Bloons TD 4",
-        "reset": true,
-        "function": "bloons4"
-    },
-    {
-        "section": "game",
-        "display": "Moto XM3",
-        "reset": true,
-        "function": "motoxm3"
-    },
-    
-    {
-        "section": "game",
-        "display": "2048",
-        "reset": true,
-        "function": "game2048"
-    },
-    
-    {
-        "section": "game",
-        "display": "Minecraft",
-        "reset": true,
-        "function": "minecraft"
-    },
-    
-    {
-        "section": "game",
-        "display": "Retro Bowl",
-        "reset": true,
-        "function": "gameretrobowl"
-    },
-
-    {
-        "section": "game",
-        "display": "Bloons TD 1",
-        "reset": true,
-        "function": "bloons1"
-    },
-    
-    {
-        "section": "game",
-        "display": "Bloons TD 2",
-        "reset": true,
-        "function": "bloons2"
-    },
-    
-    {
-        "section": "game",
-        "display": "Agar IO (i think)",
-        "reset": true,
-        "function": "agario"
-    },
-  
-    {
-        "section": "game",
-        "display": "Moto XM3 Winter",
-        "reset": true,
-        "function":"motoxm3winter"
-    },
-
-    {
-      "section": "game",
-      "display": "slope",
-      "reset": true,
-      "function": "slope"
-    },
-
-    {
-      "section": "game",
-      "display": "Basketball Stars",
-      "reset": true,
-      "function": "bbs"
-    },
-
-    {
-      "section": "client",
-      "display": "Suggest A Feature",
-      "reset": true,
-      "function": "suggest"
-    },
-    {
-        "section": "fun",
-        "display": "Mouse Trail",
-        "options": [{"title":"Trail?", "type": "checkbox", "default": true}],
-        "function": "mouseTrail"
-    },
-
-    {
-        "section": "fun",
-        "display": "Edit Page Text",
-        "function": "editPageText"
-    },
-
-    {
-        "section": "fun",
-        "display": "dont use this",
-        "function": "uhoh",
-        "always": true
-    },
-
-    {
-        "section": "client",
-        "display": "v2 (i:0)",
-        "always": false,
-        "reset": true
-    },
-    {
-        "section": "client",
-        "display": "Backslash to hide and unhide!",
-        "always": false,
-        "reset": true
-    },
-
-
-    {
-      "section": "client",
-      "display": "Check for updates",
-      "reset": true,
-      "function": "checkupdate"
-    },
-
-
-    {
-        "section": "credit",
-        "display": "yexex for the games (every game is skidded from him)",
-        "reset": true
-    },
-    {
-        "section": "credit",
-        "display": "EmulatorJS Community",
-        "reset": true
-    },
-    {
-        "section": "credit",
-        "display": "@penguinify on discord",
-        "reset": true
-    }
-]
+{
+    "exploit": [
+        {
+            "name": "NoForceReload",
+            "description": "Prevents automatic page reloads.",
+            "alwaysActive": false,
+            "resetOnUse": false
+        },
+        {
+            "name": "Ad Remover",
+            "description": "Removes annoying ads from web pages.",
+            "alwaysActive": false
+        },
+        {
+            "name": "Better Force Select",
+            "description": "Enhances element selection capabilities.",
+            "alwaysActive": true
+        }
+    ],
+    "game": [
+        {
+            "name": "Rom Loader",
+            "description": "Load game ROMs for classic gaming experiences.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Yohoho",
+            "description": "Play the adventurous Yohoho game.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Burrito Bison",
+            "description": "Embark on a tasty adventure with Burrito Bison.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Duck Life 4",
+            "description": "Train your duck in Duck Life 4.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Bloons TD 4",
+            "description": "Defend against balloons in Bloons TD 4.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Moto XM3",
+            "description": "Experience thrilling motocross in Moto XM3.",
+            "resetOnUse": true
+        },
+        {
+            "name": "2048",
+            "description": "Challenge your mind with the classic 2048 game.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Minecraft",
+            "description": "Explore the sandbox world of Minecraft.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Retro Bowl",
+            "description": "Play the classic Retro Bowl football game.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Bloons TD 1",
+            "description": "Pop balloons in Bloons TD 1.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Bloons TD 2",
+            "description": "Continue the balloon-popping saga in Bloons TD 2.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Agar IO",
+            "description": "Conquer the agar world in Agar IO.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Moto XM3 Winter",
+            "description": "Conquer winter terrain in Moto XM3 Winter edition.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Slope",
+            "description": "Master the slopes in the thrilling Slope game.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Basketball Stars",
+            "description": "Shoot hoops in Basketball Stars.",
+            "resetOnUse": true
+        }
+    ],
+    "client": [
+        {
+            "name": "Suggest A Feature",
+            "description": "Submit your feature suggestions for the client.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Check for updates",
+            "description": "Manually check for client updates.",
+            "resetOnUse": true
+        },
+        {
+            "name": "v2 (i:0)",
+            "description": "Version information (i:0)",
+            "alwaysActive": false,
+            "resetOnUse": true
+        },
+        {
+            "name": "Backslash to hide and unhide!",
+            "description": "Toggle client visibility with a backslash key.",
+            "alwaysActive": false,
+            "resetOnUse": true
+        }
+    ],
+    "fun": [
+        {
+            "name": "Mouse Trail",
+            "description": "Enable or disable a mouse trail effect.",
+            "options": [
+                {
+                    "title": "Trail?",
+                    "type": "checkbox",
+                    "default": true
+                }
+            ]
+        },
+        {
+            "name": "Edit Page Text",
+            "description": "Modify text on web pages for fun.",
+            "resetOnUse": false
+        },
+        {
+            "name": "Don't Use This",
+            "description": "Caution: Use with care! (Always active)",
+            "alwaysActive": true
+        }
+    ],
+    "credit": [
+        {
+            "name": "Credits to Yexex",
+            "description": "Acknowledgment to Yexex for game contributions.",
+            "resetOnUse": true
+        },
+        {
+            "name": "EmulatorJS Community",
+            "description": "Credit to the EmulatorJS Community.",
+            "resetOnUse": true
+        },
+        {
+            "name": "Contact @penguinify on Discord",
+            "description": "Connect with @penguinify on Discord for support.",
+            "resetOnUse": true
+        }
+    ]
+}
