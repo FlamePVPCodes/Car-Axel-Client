@@ -1,23 +1,25 @@
-# 🚗 Car Axle Client v2 - Elevate Your Browsing Experience! ⭐️
+# 🚗 Car Axle Client v2 - Ignite Your Browsing Adventure! ⭐️
 
 [![Certified Trash](https://img.shields.io/badge/certified-trash-734422?style=plastic)](https://github.com/car-axle-client/car-axle-client)
 [![Lines of Code](https://img.shields.io/badge/lines_of_code-1502-blue?style=plastic)](https://github.com/car-axle-client/car-axle-client)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/car-axle-client/car-axle-client/webpack.yml?style=plastic)](https://github.com/car-axle-client/car-axle-client)
 [![Last Commit](https://img.shields.io/github/last-commit/car-axle-client/car-axle-client/main?style=plastic)](https://github.com/car-axle-client/car-axle-client)
 
-Welcome to Car Axle Client v2, where web browsing transforms into an exciting adventure! 🚀
+Prepare for an electrifying voyage with Car Axle Client v2, where the mundane web transforms into an adrenaline-pumping expedition! 🚀
 
-## 🛠️ Unleash a World of Features
+## 🛠️ Unleash the Beast
 
-- 🎮 **Explore Diverse Games:** Dive into a vast library of games [right here](https://github.com/car-axle-client/car-axle-client/blob/main/docs/games.md).
-- 🌟 **Tailor-Made Themes:** Choose between Light, Dark, and Color themes to match your mood and style.
-- 🔥 **Hack Like a Pro:**
-    - **Better Force Select:** Master element selection without restrictions.
-    - **AntiReload:** Shield yourself from pesky admin-induced page reloads.
-    - **Save Settings to Site:** Automate settings for your favorite websites.
-- 🎯 **Yexex Loader Power:** Get ready for an adrenaline-pumping gaming experience!
+- 🎮 **Dive into the Abyss of Games:** Embark on epic gaming adventures with our extensive library [right here](https://github.com/car-axle-client/car-axle-client/blob/main/docs/games.md).
+- 🌟 **Tailor Your Reality:** Command the digital realm with customizable themes - Light, Dark, and a burst of Color - all at your fingertips.
+- 🔥 **Master the Art of Hacking:**
+    - **Better Force Select:** Unleash the untamed power of element selection, breaking all boundaries.
+    - **AntiReload:** Erect an impervious shield against pesky admin-induced page reloads.
+    - **Save Settings to Site:** Automate and conquer settings for your cherished websites.
+- 🎯 **Yexex Loader Supremacy:** Strap in for an adrenaline-pumping gaming experience that knows no limits!
 
-## 📸 Visual Delights Await
+## 📸 Visual Spectacles Await
+
+Behold the spectacle:
 
 Light Mode
 ![Light Mode](docs/light.png)
@@ -25,30 +27,30 @@ Light Mode
 Dark Mode
 ![Dark Mode](docs/dark.png)
 
-## 🚀 Seamless Installation
+## 🚀 Effortless Installation
 
-### Website Installation
-Effortlessly install from our [dedicated website](https://car-axle-client.github.io).
+### Webway Installation
+Embrace the future by installing seamlessly from our [dedicated website](https://car-axle-client.github.io).
 
-### Hands-On Editing and Building
-1. Begin your journey by cloning this repository (you've got this!).
-2. Equip the necessary dependencies found in `package.json` with a swift `npm install`.
-3. Personalize and fine-tune as you please.
-4. Ignite the engine with `npx webpack`.
-5. Craft a bookmarklet using Mrcoles Bookmarklet Generator from `./build/index.js`.
+### Hands-On Crafting and Forging
+1. Begin your heroic journey by cloning this repository (the path to greatness awaits!).
+2. Arm yourself with the necessary dependencies from `package.json` through a swift `npm install`.
+3. Carve your own legend with personalized tweaks and adjustments.
+4. Ignite the engine with the almighty `npx webpack`.
+5. Craft a bookmarklet using the mystical Mrcoles Bookmarklet Generator, drawing power from `./build/index.js`.
 
-## 📢 Stay in the Loop
+## 📢 Stay in the Epicenter
 
-Join our [announcements channel](https://discord.gg/nac46r6Qn7) to stay updated with the latest developments!
+Join the quest and keep your senses sharp with the latest scrolls in our [announcements channel](https://discord.gg/nac46r6Qn7)!
 
-## 🚧 Mapping the Road Ahead
+## 🚧 Forge the Path Forward
 
-Navigate our roadmap for an exciting glimpse of upcoming features and enhancements [here](https://github.com/car-axle-client/car-axle-client/issues/13).
+Map out your destiny with our roadmap, unveiling the grand tapestry of upcoming features and enhancements [here](https://github.com/car-axle-client/car-axle-client/issues/13).
 
-## 🆘 We're Here to Assist
+## 🆘 We Ride Together
 
-For support, reach out to our Discord channel (@penguinify) or use GitHub issues. Let's ensure your journey with Car Axle Client remains smooth and exhilarating! 🚗🌟
+For support, beckon us through the Discord raven, @penguinify, or send forth your missive through the sacred GitHub issues. Together, we shall ensure your journey with Car Axle Client ascends to unparalleled heights! 🚗🌟
 
 ---
 
-This version maintains the key information while injecting more enthusiasm and engagement into the content. Enjoy the ride! 🌟🚗
+Here's an even more high-energy and captivating version! Enjoy the exhilarating journey with Car Axle Client v2! 🚗🌟
