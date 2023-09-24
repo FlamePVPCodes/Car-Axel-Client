@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import "variables.less";
 
-
 .cac__ALL {
     font-family: 'Nunito', sans-serif !important;
-    color:@text !important;
+    color: @text !important;
     border: none;
-    margin: none;
+    margin: 0;
     font-weight: auto;
 }
 
@@ -29,7 +28,7 @@ svg {
 }
 
 #cac__GUI {
-    width:71%;
+    width: 71%;
     height: 71%;
     background-color: @secondary6;
     backdrop-filter: blur(10px);
@@ -47,13 +46,13 @@ svg {
     border-radius: 20px;
     position: relative;
     display: flex;
-    overflow: none;
+    overflow: hidden;
     flex-direction: column;
     align-items: center;
 }
 
 #cac__MAINCONTENT {
-    width:80%;
+    width: 80%;
     height: 100%;
     background-color: transparent;
     text-align: left;
@@ -96,7 +95,7 @@ svg {
 }
 
 #cac__TABBAR {
-    width:auto;
+    width: auto;
     z-index: 100000000000000;
     height: 3vw;
     background-color: @theme;
