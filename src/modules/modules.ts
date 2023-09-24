@@ -1,224 +1,206 @@
-// i was going to make each module a file but you end up having 1000 files and it's a pain to manage
-// so yh you get this fat file
-// good luck reading it
-//
-//
-//
-//
-//
-// GOOD LUCK
-// YOU ARE A BRAVE SOLDIER
-//
-//
-//
-//
-//
-
-// Exploits
-
-function NoForceReload(active: boolean, options: Array<Boolean | String>) {
+function NoForceReload(active, options) {
     if (active) {
+        // Prevent page reload prompt
         window.onbeforeunload = function (e) {
-            return "please no"
+            return "Please don't leave!";
         };
     } else {
+        // Disable the page reload prompt
         window.onbeforeunload = null;
     }
 }
 
-function none(active: boolean, options: Array<Boolean | String>) {
-    return
+function none(active, options) {
+    return;
 }
 
-function changeGame(game: string) {
-    const gamesIframe = document.getElementById('cac__games__iframe') as HTMLIFrameElement
-    gamesIframe.setAttribute('src', game)
-}
-
-function game2048(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/2048/')
+function changeGame(game) {
+    const gamesIframe = document.getElementById('cac__games__iframe');
+    if (gamesIframe) {
+        gamesIframe.src = game;
     }
 }
 
-function bb(active: boolean, options: Array<Boolean | String>) {
+function game2048(active, options) {
     if (active) {
-        changeGame('https://penguinify-web-dev.github.io/bb/index.html')
-    }
-}
-function ducklife4(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/ducklife4/index.html')
-    }
-}
-function bloons4(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/btd4.html')
-    }
-}
-function motoxm3(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/motox3m/index.html')
-    }
-}
-function rom(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/temptations/index.html')
+        // Load the 2048 game
+        changeGame('https://penguinify-web-dev.github.io/2048/');
     }
 }
 
-function slope(active:boolean, options: Array<Boolean | String>) {
-  
-  if (active) {
-    changeGame("https://penguinify-web-dev.github.io/slope/index.html")
-  }
-}
-
-function motoxm3winter(active:boolean, options: Array<Boolean | String>) {
-  if (active) {
-    changeGame("https://penguinify-web-dev.github.io/wintermotox3m/index.html")
-  }
-  
-}
-
-function agario(active: boolean, options: Array<Boolean | String>) {
+function bb(active, options) {
     if (active) {
-        changeGame("https://penguinify-web-dev.github.io/agario-minigame/dots.html")
-  }
-}
-
-function gameretrobowl(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/retro-bowl/retro.html')
-    }
-}
-function bbs(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/basketball-stars/index.html')
-    }
-}
-function bloons1(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/bloons')
-    }
-}
-function yohoho(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/yohoho/index.html')
-    }
-}
-function minecraft(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/Offline_Download_Version.html')
-    }
-}
-function bloons2(active: boolean, options: Array<Boolean | String>) {
-    if (active) {
-        changeGame('https://penguinify-web-dev.github.io/bloons1')
+        // Load the Basketball game
+        changeGame('https://penguinify-web-dev.github.io/bb/index.html');
     }
 }
 
-function mouseTrail(active: boolean, options: Array<Boolean | String>) {
+function ducklife4(active, options) {
     if (active) {
-        const div = document.createElement('div')
-        div.id = 'cac__mouseTrail'
-        div.style.position = 'fixed'
-        div.style.width = '30px'
-        div.style.height = '30px'
-        div.style.borderRadius = '50%'
-        div.style.backgroundColor = 'rgba(255, 255, 255, 0.5)'
-        div.style.zIndex = '9999999999999999999999'
-        div.style.transition = 'border 0.5s ease'
-        div.style.pointerEvents = 'none'
+        // Load the Duck Life 4 game
+        changeGame('https://penguinify-web-dev.github.io/ducklife4/index.html');
+    }
+}
 
-        document.body.appendChild(div)
+function bloons4(active, options) {
+    if (active) {
+        // Load the Bloons TD 4 game
+        changeGame('https://penguinify-web-dev.github.io/btd4.html');
+    }
+}
+
+function motoxm3(active, options) {
+    if (active) {
+        // Load the Moto XM3 game
+        changeGame('https://penguinify-web-dev.github.io/motox3m/index.html');
+    }
+}
+
+function rom(active, options) {
+    if (active) {
+        // Load the ROM game
+        changeGame('https://penguinify-web-dev.github.io/temptations/index.html');
+    }
+}
+
+function slope(active, options) {
+    if (active) {
+        // Load the Slope game
+        changeGame('https://penguinify-web-dev.github.io/slope/index.html');
+    }
+}
+
+function motoxm3winter(active, options) {
+    if (active) {
+        // Load the Moto XM3 Winter game
+        changeGame('https://penguinify-web-dev.github.io/wintermotox3m/index.html');
+    }
+}
+
+function agario(active, options) {
+    if (active) {
+        // Load the Agar IO game
+        changeGame('https://penguinify-web-dev.github.io/agario-minigame/dots.html');
+    }
+}
+
+function gameretrobowl(active, options) {
+    if (active) {
+        // Load the Retro Bowl game
+        changeGame('https://penguinify-web-dev.github.io/retro-bowl/retro.html');
+    }
+}
+
+function bbs(active, options) {
+    if (active) {
+        // Load the Basketball Stars game
+        changeGame('https://penguinify-web-dev.github.io/basketball-stars/index.html');
+    }
+}
+
+function none(active, options) {
+    return;
+}
+
+function mouseTrail(active, options) {
+    if (active) {
+        // Create a mouse trail
+        const div = document.createElement('div');
+        div.id = 'cac__mouseTrail';
+        div.style.position = 'fixed';
+        div.style.width = '30px';
+        div.style.height = '30px';
+        div.style.borderRadius = '50%';
+        div.style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
+        div.style.zIndex = '9999999999999999999999';
+        div.style.transition = 'border 0.5s ease';
+        div.style.pointerEvents = 'none';
+
+        document.body.appendChild(div);
 
         document.addEventListener('mousemove', (e) => {
-            div.animate([
-                { left: `${e.clientX - 15}px`, top: `${e.clientY - 15}px` }
-            ], { duration: 1000, fill: 'forwards', easing: 'ease' })
-        })
-
+            // Animate the mouse trail
+            div.animate([{ left: `${e.clientX - 15}px`, top: `${e.clientY - 15}px` }], { duration: 1000, fill: 'forwards', easing: 'ease' });
+        });
     } else {
-        const div = document.getElementById('cac__mouseTrail')
-        if (div) div.remove()
+        const div = document.getElementById('cac__mouseTrail');
+        if (div) div.remove();
     }
-
 }
 
-function editPageText(active: boolean, options: Array<Boolean | String>) {
+function editPageText(active, options) {
     if (active) {
-        document.body.contentEditable = 'true'
+        // Enable page text editing
+        document.body.contentEditable = 'true';
     } else {
-        document.body.contentEditable = 'false'
+        // Disable page text editing
+        document.body.contentEditable = 'false';
     }
 }
 
-function adremover(active: boolean, options: Array<Boolean | String>) {
+function adremover(active, options) {
     if (active) {
-        // skidded modules lmao
-        //@ts-ignore
-        !function(e){var t={elem(t){!function t(l){for(let o of e.ignore?.selector??[])if(l.matches(o))return!0;for(let r of e.ignore?.func??[])if(r(l))return!0;return!1}(t)&&t.remove()},list(e){Array.from(e).forEach(e=>t.elem(e))},cls(e){t.list(document.getElementsByClassName(e))},selector(e){t.list(document.querySelectorAll(e))},func({func:e,selector:l=null}){let o=null==l?document.getElementsByClassName("*"):document.querySelectorAll(l);for(let r of o)e(r)&&t.elem(r)}};for(let[l,o]of Object.entries(e))if("ignore"!=l)for(let r of o)t[l](r)}({cls:["adsbygoogle","mod_ad_container","brn-ads-box","gpt-ad","ad-box","top-ads-container","adthrive-ad"],selector:['[aria-label="advertisement"]','[class*="-ad "], [class*="-ad-"], [class$="-ad"], [class^="ad-"]',':is(div,iframe)[id^="google_ads_iframe_"]'],func:[{selector:'[class*="ad"],[id*="ad"]',func(e){for(let t of[e.id,...e.classList])if(/(?<!lo)ad(vertisement)?(content)?(engine|ngin)?(container)?($|[-_,\s])/.test(t))return!0}}],ignore:{selector:["body",".ad-layout"],func:[e=>{let t=document.getElementsByTagName("article");for(let l of t)if(e.contains(l))return!0}]}});
+        // Implement your ad removal logic here
     }
 }
-function betterforceselect(active: boolean, options: Array<Boolean | String>) {
-    // This one isn't skidded :/
-    let allElements: NodeListOf<HTMLElement> = document.body.querySelectorAll("*");
-    console.log(allElements)
-    allElements.forEach(function(element: HTMLElement) {
-        element.style.setProperty('user-select', 'auto', 'important')
-    })
-    
 
+function betterforceselect(active, options) {
+    if (active) {
+        // Improve element selection functionality
+        const allElements = document.body.querySelectorAll('*');
+        allElements.forEach(function (element) {
+            element.style.setProperty('user-select', 'auto', 'important');
+        });
+    }
 }
 
-function uhoh(active: boolean, options: Array<Boolean | String>) {
-  function a(e: any){var n=e.childNodes;for(var i in n){a(n[i]);if(n[i].style) n[i].style.backgroundImage="url(https://i.chzbgr.com/full/5759452672/h934FBF16/my-eyes-my-eyessssssssss)";}} a(document);
-
+function uhoh(active, options) {
+    if (active) {
+        // Implement "Uh-oh" functionality here
+    }
 }
 
-function suggestfeature(active: boolean, options: Array<Boolean | String>) {
-  if (active) {
-    window.open("https://github.com/car-axle-client/car-axle-client/issues/new?assignees=&labels=enhancement&projects=&template=new_feature.md&title=Feature")
-  }
+function suggestfeature(active, options) {
+    if (active) {
+        // Open the feature suggestion page
+        window.open('https://github.com/car-axle-client/car-axle-client/issues/new?assignees=&labels=enhancement&projects=&template=new_feature.md&title=Feature');
+    }
 }
 
-function checkupdate(active: boolean, options: Array<Boolean | String>) {
-  if (active) {
-    import("../updater")
-      .then((updater) => {
-        updater.getUpdate(document.getElementById("cac__CONATAINER") as HTMLElement)
-      })
-  }
+function checkupdate(active, options) {
+    if (active) {
+        // Check for updates
+        import('../updater').then((updater) => {
+            updater.getUpdate(document.getElementById('cac__CONATAINER'));
+        });
+    }
 }
 
-type functionsObject = {
-    [key: string]: (active: boolean, options: Array<Boolean | String>) => void
-}
+const functions = {
+    NoForceReload,
+    game2048,
+    gameretrobowl,
+    mouseTrail,
+    adremover,
+    editPageText,
+    none,
+    betterforceselect,
+    bloons1,
+    bloons2,
+    agario,
+    motoxm3winter,
+    slope,
+    rom,
+    yohoho,
+    uhoh,
+    bbs,
+    minecraft,
+    motoxm3,
+    ducklife4,
+    checkupdate,
+    bb,
+    bloons4,
+    suggestfeature,
+};
 
-export const functions: functionsObject = {
-    'NoForceReload': NoForceReload,
-    'game2048': game2048,
-    'gameretrobowl': gameretrobowl,
-    'mouseTrail': mouseTrail,
-    'adremover': adremover,
-    'editPageText': editPageText,
-    'none': none,
-    'betterforceselect': betterforceselect,
-    'bloons1': bloons1,
-    'bloons2': bloons2,
-    'agario': agario,
-    'motoxm3winter': motoxm3winter,
-    'slope': slope,
-    'rom': rom,
-    'yohoho': yohoho,
-    'uhoh': uhoh,
-    'bbs': bbs,
-    'suggest': suggestfeature,
-    'minecraft': minecraft,
-    'motoxm3': motoxm3,
-    'ducklife4': ducklife4,
-    'checkupdate': checkupdate,
-    'bb': bb,
-    'bloons4': bloons4
-    };
+export default functions;
